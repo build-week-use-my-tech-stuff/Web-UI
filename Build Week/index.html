@@ -4,7 +4,7 @@
 <head>
     <title>Web UI</title>
     <link rel="stylesheet" href="css/index.css">
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </head>
 
 <body>
@@ -12,10 +12,10 @@
         <header class="main-nav">
             <div class="nav-container">
                 <h1 class="logo">Logo</h1>
-            <nav>
-                <a href="nav-link">About Us</a>
-            </nav>
-        </div>
+                <nav>
+                    <a href="nav-link">About Us</a>
+                </nav>
+            </div>
         </header>
         <section class="cta">
             <h1>CTA</h1>
@@ -53,11 +53,32 @@
             </div>
 
         </section>
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div id="playPause" onclick="playPauseSlides()"></div>
+                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+                <div class="captionTextHolder">
+                    <p class="captionText slideTextFromTop"></p>
+                </div>
+                <div class="imageHolder">
+                    <img src="img/img_1.jpg">1366X768
+                    <p class="captionText">Caption Text-01</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="img/img_2.jpg">
+                    <p class="captionText">Caption Text-02</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="img/img_3.jpg">
+                    <p class="captionText">Caption Text-03</p>
+                </div>
+            </div>
+            <div id="dotsContainer"></div>
+        </div>
+        <script src="script.js"></script>
     </div>
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
-    <button onclick="runCode()">Click Me</button>
-
+    </div>
     </div>
     <!--container-->
 </body>
