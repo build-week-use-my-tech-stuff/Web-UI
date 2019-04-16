@@ -1,3 +1,26 @@
+// home click events
+const button = document.querySelector('.btn');
+button.addEventListener('mouseover', function(eventObject){
+    console.log(`Event Target: ${eventObject.target}`);
+    eventObject.target.style.backgroundColor = "red"; 
+});
+
+const imgHover = document.querySelectorAll('.guarantee');
+
+
+
+
+// Scale on hover code
+// .grow { transition: all .2s ease-in-out; }
+// .grow:hover { transform: scale(1.1); }
+
+// class Button {
+//     constructor(element){
+//         this.element = element;
+//         this.element.addEventListener()
+//     }
+// }
+
 // Typerwriter Effect 
 
 const TypeWriter = function(txtElement, words, wait = 3000){

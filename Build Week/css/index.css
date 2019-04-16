@@ -60,6 +60,7 @@ h2{
     font-size: 1.7em;
     text-align: center;
     font-weight: 400;
+    
 }
 
 a{
@@ -84,6 +85,8 @@ a{
 .btn:hover,.btn:active{
     background-color: #fff;
     color: #000;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
     transition: backgroun-color 0.3s ease-in, color 0.3s ease-in;
 }
 
@@ -154,11 +157,18 @@ a{
         border-top: 2px dashed #C0C0C0;
         display: flex;
         justify-content: space-between;
+        text-align: center;
+        
 }
 .body-content .guarantee {
     width: 30%;
     
 }
+
+/* .body-content .guarantee img {
+    justify-content: center;
+    align-items: center;
+} */
 
 
 
@@ -365,7 +375,7 @@ a{
 footer {
     margin: 32px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 1rem;
   }
 
 
@@ -400,7 +410,7 @@ footer {
         display: block;
         text-align: center;
         padding: 20px 0;
-        font-size: 20px;
+        font-size: 1.4rem;
 }
 }
 
@@ -538,6 +548,7 @@ font-size: 2rem;
     align-items: center;
     flex-wrap: wrap;
    height: 230px;
+   /* width: 500px; */
    border: 2px solid black;
 }
 .market-content .mkt-btn {
@@ -546,5 +557,5 @@ font-size: 2rem;
     align-items: center;
 }
 .item .market-img {
-    padding: 0 20px;
+    padding: 0 30px;
 }
