@@ -321,9 +321,140 @@ html{
     to {opacity: 1;margin-top: 0px;}
 }
 
+
+
+
 @media (max-width: 500px) {
-    .main-nav .nav-container{
+    .container {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+@media (max-width: 500px) {
+    .main-nav {
       display: flex;
       flex-direction: column;
-      
+      border-bottom: none;
+      height: 220px;
+      border-bottom: 1px solid gray;
     }
+@media (max-width: 500px) {
+    .main-nav .nav-container {
+      display: flex;
+      flex-direction: column;
+     
+    }
+
+@media (max-width: 500px) {
+    .main-nav .nav-container nav a{
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 20px;
+}
+
+
+@media (max-width: 500px) {
+.cta h1 {
+font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+.cta-text {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0 0 2% 2%;
+    height: 250px;
+}
+@media (max-width: 500px) {
+.buttons {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+} 
+@media (max-width: 500px) {
+     .button {
+        
+
+    } 
+    
+
+/* 
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 45px;
+        background-color: black;
+        color: #FFFFFF;
+        border: 1px solid #C0C0C0;
+        cursor: pointer;
+        font-size: 1.8rem;
+    } 
+     */
+
+     @media (max-width: 500px) {
+        .content h2 {
+           font-size: 2rem;
+            text-align: center;
+       } 
+       
+       @media (max-width: 500px) {
+        .content p {
+           font-size: 1.2rem;
+       } 
+
+       @media (max-width: 500px) {
+        .txt-type > .txt {
+           font-size: 2rem;
+           
+       } 
+
+       @media (max-width: 500px) {
+        .body-content {
+           flex-direction: column;
+           
+       } 
+
+         @media (max-width: 500px) {
+        .body-content .guarantee {
+           width: 100%;
+           flex-wrap: nowrap;
+           padding: 0 0 2% 2%;
+
+       } 
+
+       @media (max-width: 500px) {
+        .body-content .guarantee {
+           width: 100%;
+           flex-wrap: nowrap;
+           padding: 0 0 2% 2%;
+
+       } 
+
+       @media (max-width: 500px) {
+        .body-content .guarantee h4 {
+            font-size: 2rem;
+            text-align: center;
+       } 
+       @media (max-width: 500px) {
+        .body-content .guarantee p {
+            font-size: 1.2rem;
+       } 
+
+        @media (max-width: 500px) {
+        .galleryContainer {
+           display: none;
+           
+       }    
