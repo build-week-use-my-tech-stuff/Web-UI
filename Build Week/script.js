@@ -5,7 +5,7 @@ button.addEventListener('mouseover', function(eventObject){
     eventObject.target.style.backgroundColor = "red"; 
 });
 
-const imgHover = document.querySelectorAll('.guarantee');
+
 
 
 
