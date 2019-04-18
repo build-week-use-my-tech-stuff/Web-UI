@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <script src="script.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-nav">
+            <div class="nav-container">
+                <img src="img/logo.JPG" class="logo" alt="logo">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="https://rentmytech.netlify.com">Login</a>
+                </nav>
+            </div>
+        </header>
+        <section class="img-container">
+            <div class="inner-container">
+                <h1>Renting Made Easy</h1>
+                <h2>Peer to peer renting from the comfort of home</h2>
+                <a href="https://rentmytech.netlify.com" class="btn" style="background-color: #00B1E7;">Get Started</a>
+            </div>
+
+        </section>
+        <section class="content">
+            <h2>Owners, Lets Xchange!</h2>
+            <p>What if we told you all the idle items in your house could be making you money around the clock? List your 
+                stuff on Tech Xchange. Next, all you have to do is tell us when you're ready to ship and we'll pick it up, deliver and fully insure it.  
+            </p>
+            <h2>Make Money From Your Used</h2>
+            <span class="txt-type" data-wait="1500" data-words='["Camera","Microphone","Television","Speakers"]'></span>
+        </section>
+        <section class="rentContent">
+                <h2>Renters, Lets Xchange!</h2>
+                <h3>Hassle-Free</h3>
+                <p>Rent any item through us on your time and budget. Use it for your projects and creative endevors or even just for fun. When you're all set we'll pick the item up and that's it until next time.</p>
+            </section>
+        <section class="body-content">
+            <div class="guarantee">
+                <img src="img/fast1.png" class="imgHov"></img>
+                <h3>Fast Shipping</h3>
+                <p>We pick up the item and it ships to us overnight. We inspect the item and ship it out to the rentee within 2 business days.</p>
+            </div>
+            <div class="guarantee">
+                <img src="img/communication1.png" class="imgHov"></img>
+                <h3>Customer Support</h3>
+                <p>We offer around the clock customer support for any inquiries and information regarding our services.</p>
+            </div>
+            <div class="guarantee">
+                <img src="img/money-back1.png" class="imgHov"></img>
+                <h3>Money Back Guarantee</h3>
+                <p>Every item facilitated through Tech Xchange is 100% fully insured. So you never have to worry about lost items.</p>
+            </div>
+
+        </section>
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div id="playPause" onclick="playPauseSlides()"></div>
+                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+                <div class="captionTextHolder">
+                    <p class="captionText slideTextFromTop"></p>
+                </div>
+                <div class="imageHolder">
+                    <img src="img/slide 1.jpg">1366X768
+                    <p class="captionText">Film</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="img/slide2.jpg">
+                    <p class="captionText">Photography</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="img/slide3.jpg">
+                    <p class="captionText">Music</p>
+                </div>
+            </div>
+            <div id="dotsContainer"></div>
+        </div>
+        <script src="script.js"></script>
+        <footer>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="https://rentmytech.netlify.com">Login</a>
+            </nav>
+            <p>Copyright Build Week</p>
+        </footer>
+
+    </div>
+    </div>
+    </div>
+    <!--container-->
+</body>
+
+</html>
